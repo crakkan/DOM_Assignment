@@ -1,0 +1,11 @@
+let card = document.querySelector('.recipe-gallery');
+let newCard = document.createElement('div');
+newCard.style.height = '282px';
+newCard.style.width = '330px';
+newCard.style.boxShadow = 'rgba(0, 0, 0, 0.35) 0px 5px 15px';
+newCard.innerText = 'add new item';
+newCard.style.fontSize = '30px';
+newCard.style.fontWeight = '600';
+card.appendChild(newCard);
+console.log(newCard);
+console.log(card);
